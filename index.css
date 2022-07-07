@@ -1,0 +1,75 @@
+.navbar .navbar-nav .nav-link{
+    color:rgb(252, 248, 248);
+    font-size: 1.1;
+    padding: .7em;
+    border-left: 2.5px solid rgb(175, 173, 173);
+}
+.navbar .navbar-nav .nav-item:last-child .nav-link{
+    border-right: 2.5px solid rgb(175, 173, 173);
+}
+.carousel-inner .item{
+    -webkit-transition: -webkit-transform 1s ease-in-out !important;
+    -o-transition: -o-transform 1s ease-in-out !important;
+    transition: transform 1s ease-in-out !important;
+    }
+.carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0%;
+    background: #000;
+    opacity: 0.5;
+}
+.carousel-caption{
+    bottom: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.carousel-caption h5{
+    font-size: 70px;
+    font-weight: 700;
+}
+.carousel-caption p{
+    font-size: 18px;
+    font-weight: bold;
+    top: 2rem;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 0.5em 1.5em rgb(0 0 0 / 10%), inset 0 0.125em 0.5em rgb(0 0 0 / 15%)
+}
+.d-flex {
+    display: flex!important;
+}
+.ms-3 {
+    margin-left: 1rem!important;
+}
+.link-dark {
+    color: #212529;
+}
+.bi {
+    vertical-align: -0.125em;
+    fill: currentColor;
+}
+
+
+
+
+
+
+
